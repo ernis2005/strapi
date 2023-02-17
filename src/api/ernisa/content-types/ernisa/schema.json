@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "ernisasa",
+  "info": {
+    "singularName": "ernisa",
+    "pluralName": "ernisasa",
+    "displayName": "ernis"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
