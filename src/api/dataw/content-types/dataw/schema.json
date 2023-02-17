@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "datas",
+  "info": {
+    "singularName": "dataw",
+    "pluralName": "datas",
+    "displayName": "data"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "info": {
+      "type": "richtext"
+    },
+    "reactjs": {
+      "type": "string"
+    },
+    "git": {
+      "type": "string"
+    },
+    "versol": {
+      "type": "string"
+    },
+    "img": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
